@@ -137,7 +137,7 @@
   grid(
     columns: (auto, auto),
     column-gutter: 1em,
-    row-gutter: 1.5em,
+    row-gutter: 1em,
     ..c
   )
 }
