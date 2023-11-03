@@ -40,11 +40,7 @@
     )
 
     #profile_section("Skills")
-    #list(
-        lorem(3),
-        lorem(2),
-        lorem(2),
-    )
+    #align(center, image("images/skills.png", width: 80%))
 
     #profile_section("Interests")
     #show_interests((
@@ -72,7 +68,10 @@
   [
     #body_section("Education")
     #twentyitem(
-      period: [Sep. 2007 - \Jun. 2011],
+      period: [
+        Sep. 2007 - \
+        Jun. 2011
+      ],
       title: lorem(4),
       note: link("http://www.nju.edu.cn/")[Nanjing University],
       addtional_note: lorem(3),
@@ -80,7 +79,10 @@
     )
     #body_section("Experience")
     #twentyitem(
-      period: [Oct. 2017 - \Now],
+      period: [
+        Oct. 2017 - \
+        Now
+      ],
       title: lorem(4),
       note: lorem(1),
       body: list(
@@ -90,7 +92,10 @@
       )
     )
     #twentyitem(
-      period: [Mar. 2016 - \Oct. 2017],
+      period: [
+        Mar. 2016 - \
+        Oct. 2017
+      ],
       title: lorem(4),
       note: lorem(1),
       body: list(
@@ -100,7 +105,10 @@
       )
     )
     #twentyitem(
-      period: [Jul. 2011 - \Mar. 2016],
+      period: [
+        Jul. 2011 - \
+        Mar. 2016
+      ],
       title: lorem(4),
       note: lorem(1),
       body: list(
