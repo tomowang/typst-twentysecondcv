@@ -18,6 +18,12 @@ This template use Font Awesome for icons. You need to import the font awesome fo
 in your Typst project for the icons to show up properly. In macOS, just double
 click the .otf font file to install.
 
+> Note: If you use icon with dash sigh like `chess-queen`, it may not work properly.
+> See https://github.com/typst/typst/issues/2578.
+>
+> You can use unicode instead. For example, `chess-queen` can be replaced with `"\u{f445}"`.
+> You can find the unicode [here](https://github.com/typst/packages/blob/main/packages/preview/fontawesome/0.1.0/lib.typ)
+
 Use `typst compile example.typ` to compile the example.typ into PDF.
 This command will download `@preview/fontawesome:0.1.0` packge automatically.
 
