@@ -5,7 +5,7 @@
  * License: MIT (see included file LICENSE)
  */
 
-#import "@preview/fontawesome:0.1.0": *
+#import "@preview/fontawesome:0.2.1": *
 
 #let headercolor = gray
 #let pblue = rgb("#0395DE")
@@ -122,7 +122,7 @@
   contact item is dictionary
   (
     icon: "linkedin",
-    fa-set: "Brands", // or "Free" or "Free Solid"
+    solid: false, // Whether to use the solid version of the icon
     text: "https://www.linkedin.com/in/someone",
   )
 */
@@ -130,7 +130,7 @@
   v(3mm)
   let c = ()
   for contact in contacts {
-    c.push(fa-icon(contact.icon, fa-set: contact.at("fa-set", default: "Free"), fill: pblue))
+    c.push(fa-icon(contact.icon, solid: contact.solid, fill: pblue))
     c.push(contact.text)
   }
 

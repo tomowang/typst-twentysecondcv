@@ -13,27 +13,27 @@
       (
         (
           icon: "linkedin",
-          fa-set: "Brands",
+          solid: false,
           text: "https://www.linkedin.com/in/someone",
         ),
         (
           icon: "github",
-          fa-set: "Brands",
+          solid: false,
           text: "https://github.com/tomowang",
         ),
         (
           icon: "globe",
-          fa-set: "Free Solid",
+          solid: true,
           text: "https://tomo.dev",
         ),
         (
           icon: "phone",
-          fa-set: "Free Solid",
+          solid: true,
           text: link("tel:+86 123 456 78999")[+86 123 456 78999],
         ),
         (
           icon: "envelope",
-          fa-set: "Free Solid",
+          solid: true,
           text: "some@example.com",
         ),
       )
