@@ -130,7 +130,7 @@
   v(3mm)
   let c = ()
   for contact in contacts {
-    c.push(fa-icon(contact.icon, solid: contact.solid, fill: pblue))
+    c.push(fa-icon(contact.icon, solid: contact.at("solid", default: false), fill: pblue))
     c.push(contact.text)
   }
 

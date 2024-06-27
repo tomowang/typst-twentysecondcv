@@ -13,12 +13,10 @@
       (
         (
           icon: "linkedin",
-          solid: false,
           text: "https://www.linkedin.com/in/someone",
         ),
         (
           icon: "github",
-          solid: false,
           text: "https://github.com/tomowang",
         ),
         (
